@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>CRUD Data</title>
+</head>
+<body>
+
+	<center>
+	
+	    <h2>-------------------------------- : Insert Form Data : --------------------------------</h2>
+	    
+	    <form action="InsertServlet" method="post">
+	    
+	        Name: 
+	        <input type="text" name="u_name" required><br><br>
+	        
+	        Contact: 
+	        <input type="text" name="u_contact" required><br><br>
+	        
+	        Email: 
+	        <input type="email" name="u_email" required><br><br>
+	        
+	        Password: 
+	        <input type="password" name="u_password" required><br><br>
+	        
+	        <input type="submit" value="Insert Data">
+	        
+	    </form>
+	    
+	    <h2>-------------------------------- : Update Form Data : --------------------------------</h2>
+	    
+	    <form action="UpdateServlet" method="post">
+	    
+	        User ID: 
+	        <input type="text" name="u_id" required><br><br>
+	        
+	        Name: 
+	        <input type="text" name="u_name" required><br><br>
+	        
+	        Contact: 
+	        <input type="text" name="u_contact" required><br><br>
+	        
+	        Email: 
+	        <input type="email" name="u_email" required><br><br>
+	        
+	        Password: 
+	        <input type="password" name="u_password" required><br><br>
+	        
+	        <input type="submit" value="Update Data">
+	        
+	    </form>
+	    
+	    <h2>------------------------------- : Delete Form Data : --------------------------------</h2>
+	    
+	    <form action="DeleteServlet" method="post">
+	    
+	        Enter ID to Delete: 
+	        <input type="number" name="u_id" required><br><br>
+	        
+	        <input type="submit" value="Delete Data">
+	        
+	    </form>
+	    
+	    <h2>-------------------------------- : View Form Data : --------------------------------</h2>
+	    
+	    <form action="ViewServlet" method="get">
+	    
+	    	<input type="submit" value="View Data">
+	    	
+		</form>
+		
+	</center>
+</body>
+</html>

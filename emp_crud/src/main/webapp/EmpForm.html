@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<center>
+	
+		<h2>-------------------------------- : Insert Employee Data : --------------------------------</h2>
+		
+		<form action="InsertEmpData" method="post">
+		
+			<label>Name : </label>
+			<input type="text" name="txtname"> <br><br>
+			
+			<label>Gender : </label>
+			<input type="radio" name="selgen" value="Male">Male
+			<input type="radio" name="selgen" value="Female">Female <br><br>
+			
+			<label>Email Id : </label>
+			<input type="text" name="txtemail"> <br><br>
+			
+			<label>Contact No : </label>
+			<input type="number" name="txtcontact"> <br><br>
+			
+			<label>Password : </label>
+			<input type="text" name="txtpassword"> <br><br>
+			
+			<label>Repeat Password : </label>
+			<input type="text" name="txtrptpassword"> <br><br>
+			
+			<label>Address : </label>
+			<textarea name="txtaddress"></textarea> <br><br>
+			
+			<label>Country : </label>
+			<select name="selcountry">
+				<option value="Country"> Select Country </option>
+				<option value="country1"> Country1 </option>
+				<option value="country2"> Country2 </option>
+				<option value="country3"> Country3 </option>
+				<option value="country4"> Country4 </option>
+				<option value="country5"> Country5 </option>
+			</select> <br><br>
+			
+			<label>State : </label>
+			<select name="selstate">
+				<option value="State"> Select State </option>
+				<option value="state1"> State1 </option>
+				<option value="state2"> State2 </option>
+				<option value="state3"> State3 </option>
+				<option value="state4"> State4 </option>
+				<option value="state5"> State5 </option>
+			</select> <br><br>
+			
+			<label> Hobby : </label>
+			<input type="checkbox" name="chkhobby" value="Reading">Reading
+			<input type="checkbox" name="chkhobby" value="Writing">Writing
+			<input type="checkbox" name="chkhobby" value="Coding">Coding
+			<input type="checkbox" name="chkhobby" value="Designing">Designing <br><br>
+			
+			<input type="submit" name="btnsubmit" value="Insert Data">
+			
+		</form>
+		
+		<h2>-------------------------------- : Update Employee Data : --------------------------------</h2>
+		
+		<form action="UpdateEmpData" method="post">
+		
+			<label>Emp Id : </label>
+			<input type="text" name="txtid"> <br><br> 
+		
+			<label>Name : </label>
+			<input type="text" name="txtname"> <br><br>
+			
+			<label>Gender : </label>
+			<input type="radio" name="selgen" value="Male">Male
+			<input type="radio" name="selgen" value="Female">Female <br><br>
+			
+			<label>Email Id : </label>
+			<input type="text" name="txtemail"> <br><br>
+			
+			<label>Contact No : </label>
+			<input type="number" name="txtcontact"> <br><br>
+			
+			<label>Password : </label>
+			<input type="text" name="txtpassword"> <br><br>
+			
+			<label>Repeat Password : </label>
+			<input type="text" name="txtrptpassword"> <br><br>
+			
+			<label>Address : </label>
+			<textarea name="txtaddress"></textarea> <br><br>
+			
+			<label>Country : </label>
+			<select name="selcountry">
+				<option value="Country"> Select Country </option>
+				<option value="country1"> Country1 </option>
+				<option value="country2"> Country2 </option>
+				<option value="country3"> Country3 </option>
+				<option value="country4"> Country4 </option>
+				<option value="country5"> Country5 </option>
+			</select> <br><br>
+			
+			<label>State : </label>
+			<select name="selstate">
+				<option value="State"> Select State </option>
+				<option value="state1"> State1 </option>
+				<option value="state2"> State2 </option>
+				<option value="state3"> State3 </option>
+				<option value="state4"> State4 </option>
+				<option value="state5"> State5 </option>
+			</select> <br><br>
+			
+			<label> Hobby : </label>
+			<input type="checkbox" name="chkhobby" value="Reading">Reading
+			<input type="checkbox" name="chkhobby" value="Writing">Writing
+			<input type="checkbox" name="chkhobby" value="Coding">Coding
+			<input type="checkbox" name="chkhobby" value="Designing">Designing <br><br>
+			
+			<input type="submit" name="btnsubmit" value="Update Data">
+			
+		</form>
+		
+		<h2>-------------------------------- : Delete Employee Data : --------------------------------</h2>
+		
+		<form action="DeleteEmpData" method="post">
+		
+			<label>Enter Emp Id for Delete Data : </label>
+			<input type="text" name="txtid"> <br><br>
+			
+			<input type="submit" value="Delete Data">
+		</form>
+		
+		<h2>-------------------------------- : View Employee Data : --------------------------------</h2>
+		
+		<form action="ViewEmpData" method="post">
+			
+			<input type="submit" value="View Data">
+		
+		</form>
+		
+	</center>
+</body>
+</html>
